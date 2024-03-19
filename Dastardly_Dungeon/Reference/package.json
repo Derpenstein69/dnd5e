@@ -1,0 +1,16 @@
+{
+  "name": "dastardly_dungeon",
+  "version": "1.0.0",
+  "description": "A backend framework for a D&D 5e web application using CodeGPT API.",
+  "main": "framework.ts",
+  "scripts": {
+    "start": "ts-node framework.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "typescript": "^4.8.2",
+    "ts-node": "^10.8.1"
+  }
+}

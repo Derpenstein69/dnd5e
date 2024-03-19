@@ -1,0 +1,109 @@
+
+
+{
+  "World": {
+    "Campaign": {
+      "The Lost Mine of Phandelver": {
+        "summary": "Beginner adventure providing an introduction to the world of D&D.",
+        "locations": [
+          {
+            "name": "Phandalin",
+            "description": "A frontier settlement of farmers and prospectors."
+          }
+          // More locations can be added here.
+        ],
+        "factions": [
+          {
+            "name": "The Zhentarim",
+            "goals": "Amass wealth, influence, and power over Faerûn."
+          }
+          // More factions can be added here.
+        ]
+        // Additional campaign details can be added here.
+      }
+      // Other campaigns can be added here.
+    },
+    "Environments": {
+      "Dungeon": {
+        "features": ["Poor lighting", "Traps", "Hidden doors"],
+        "inhabitants": ["Monsters", "Undead"]
+        // More environment-specific details can be added here.
+      }
+      // Other environments like 'Forest', 'Town', etc., can be added here.
+    }
+    // Additional world data can be added here.
+  },
+  "Rules": {
+    "Combat": {
+      "Initiative": {
+        "type": "d20",
+        "modifiers": "apply Dexterity modifier"
+      },
+      "AttackRolls": {
+        "mechanics": "Roll d20, add appropriate modifiers, compare to target's Armor Class (AC)"
+      },
+      "Damage": {
+        "types": ["slashing", "piercing", "bludgeoning", "magical", "nonmagical"]
+      }
+    },
+    "AbilityScores": {
+      "generation": "Roll four d6 and record the total of the highest three dice",
+      "modifiers": {
+        "1": -5,
+        "2-3": -4
+        // Rest of the ability score modifiers up to 30 can be added here.
+      }
+    },
+    "Advancement": {
+      "ExperiencePoints": {
+        "level1": 0,
+        "level2": 300
+        // Experience thresholds for additional levels can be added here.
+      }
+    },
+    "Resting": {
+      "ShortRest": {
+        "duration": "About 1 hour",
+        "benefits": ["Spend Hit Dice to regain hit points"]
+      },
+      "LongRest": {
+        "duration": "At least 8 hours long",
+        "benefits": ["Regain all lost hit points", "Half of the character's total number of Hit Dice are regained"]
+      }
+    }
+    // Additional rules can be added here.
+  },
+  "Equipment": {
+    "Adventuring Gear": {
+      "Backpack": {
+        "cost": "2 gp",
+        "weight": "5 lbs"
+      },
+      "Torch": {
+        "cost": "1 cp",
+        "weight": "1 lb"
+      }
+      // More adventuring gear can be added here.
+    },
+    "Tools": {
+      "Thieves' Tools": {
+        "cost": "25 gp",
+        "weight": "1 lb"
+      }
+      // More tools can be added here.
+    }
+    // More equipment categories can be added such as 'Weapons', 'Armor', 'Magical Items', etc.
+  },
+  "NPCs": {
+    "Gundren Rockseeker": {
+      "role": "Quest Giver",
+      "description": "A stout dwarf seeking adventurers to find the lost mine of Phandelver."
+    },
+    "Sildar Hallwinter": {
+      "role": "Ally",
+      "description": "A kind-hearted former soldier who assists the players."
+    }
+    // More NPCs with various roles can be added here.
+  }
+  // Rest of the known data can be added here.
+}
